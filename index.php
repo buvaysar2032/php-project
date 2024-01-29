@@ -1,6 +1,8 @@
 <?php
 
-require_once 'autoload.php';
+require_once 'Model/LocationModel.php';
+require_once 'View/LocationView.php';
+require_once 'Controller/LocationController.php';
 
 $apiKey = 'pk.5d872a6601bcdc3db3b751e26979349f';
 $model = new LocationModel($apiKey);
